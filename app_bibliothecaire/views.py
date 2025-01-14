@@ -1,3 +1,6 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def home_bibliothecaire(request):
+    return render(request, 'app_bibliothecaire/home_bibliothecaire.html')
+
